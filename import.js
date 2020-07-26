@@ -3,7 +3,7 @@
 const readLine = require('readline')
 const assert = require('assert')
 
-const { MongoClient } = require('mongodb');
+const { MongoClient } = require('mongodb')
 
 const DEFAULT_URL = 'mongodb://localhost:27017'
 
@@ -24,7 +24,7 @@ const OPERATIONS = [
 const rl = readLine.createInterface({
   input: process.stdin,
   output: process.stdout
-});
+})
 
 const question = rl.question
 
