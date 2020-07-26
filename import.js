@@ -12,12 +12,6 @@ const OPERATIONS = [
   'find',
   'findOne',
   'insertOne',
-  'insertMany',
-  'update',
-  'updateOne',
-  'updateMany',
-  'replaceOne',
-  'replaceMany',
   'deleteOne',
   'deleteMany',
 ]
